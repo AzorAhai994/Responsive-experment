@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-	margin: 0;
+    margin: 0;
     padding: 0;
 }
 
 p {
     margin-top: 0;
-	text-align: justify;
+    text-align: justify;
 }
 
 .container {
@@ -16,14 +16,14 @@ p {
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-	padding: 0 10px;
-	background-color: #4affe0ff;
+    padding: 15px 10px;
+    background-color: #4affe0ff;
 }
 
 .wrapper::after {
     display: table;
     clear: both;
-	content: '';
+    content: '';
 }
 
 
@@ -37,7 +37,7 @@ p {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     .wrapper {
         width: 640px;
-		color: #fff;
+        color: #fff;
         background-color: #000;
     }
 }
@@ -46,6 +46,6 @@ p {
 @media only screen and (max-device-width: 480px) {
     .wrapper {
         width: 80%;
-		background-color: #343434;
+        background-color: #343434;
     }
 }
