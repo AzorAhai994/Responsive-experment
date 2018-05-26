@@ -45,7 +45,7 @@ p {
 
 @media only screen and (max-device-width: 480px) {
     .wrapper {
-        width: 80%;
+        width: 90%;
         background-color: #343434;
     }
 }
